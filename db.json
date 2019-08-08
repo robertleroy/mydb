@@ -1,237 +1,62 @@
-{
-  "people": [
-    {
-      "index": 0,
-      "id": "5ceb4718d96f20aaa7087ced",
-      "guid": "315640d6-e1be-460f-9cfb-d217e927f567",
-      "name": {
-        "first": "Drake",
-        "last": "Douglas"
-      },
-      "age": 25,
-      "eyeColor": "brown",
-      "company": "Quotezart",
-      "address": {
-        "street": "54 Henry Drive",
-        "city": "Chicago",
-        "state": "IL",
-        "zipcode": "60621"
-      },
-      "email": "douglas@quotezart.com",
-      "phone": "(996) 502-2046",
-      "registered": 1021300370621,
-      "about": "Laboris cillum eiusmod tempor dolor duis officia. Proident amet ipsum fugiat laborum. Aute adipisicing enim qui enim ex."
-    },
-    {
-      "index": 1,
-      "id": "5ceb471844c539466939ceed",
-      "guid": "170b4571-ef64-4017-95a3-9a8700f11e10",
-      "name": {
-        "first": "Carroll",
-        "last": "Calhoun"
-      },
-      "age": 27,
-      "eyeColor": "blue",
-      "company": "Lunchpad",
-      "address": {
-        "street": "7787 Ocean Street",
-        "city": "Jacksonville Beach",
-        "state": "FL",
-        "zipcode": 32250
-      },
-      "email": "calhoun@lunchpad.com",
-      "phone": "(904)458-2475",
-      "registered": 1342813330153,
-      "about": "Tempor Lorem aute laborum reprehenderit ea enim eiusmod aute voluptate ut aute. Esse ex excepteur sint minim anim deserunt aliqua occaecat quis minim."
-    },
-    {
-      "index": 2,
-      "id": "5ceb4718dfe08ae30e3f6ad8",
-      "guid": "5b27094d-6d42-4481-bdb9-ddbd63dd8acb",
-      "name": {
-        "first": "Booth",
-        "last": "Hebert"
-      },
-      "age": 37,
-      "eyeColor": "blue",
-      "company": "Inear",
-      "address": {
-        "street": "347 Academy Drive",
-        "city": "Encino",
-        "state": "CA",
-        "zipcode": "91316"
-      },
-      "email": "hebert@inear.com",
-      "phone": "(747)477-3459",
-      "registered": 1185158425037,
-      "about": "Nulla labore aliqua anim non ut nostrud aliqua culpa qui. Tempor velit reprehenderit sit pariatur dolor cupidatat non irure tempor aliquip dolore dolore magna laborum."
-    },
-    {
-      "index": 3,
-      "id": "5ceb4718448e3c1a680e4e63",
-      "guid": "1f5796c9-48ae-49fe-8681-dec069d7b281",
-      "name": {
-        "first": "Adams",
-        "last": "Gallegos"
-      },
-      "age": 20,
-      "eyeColor": "brown",
-      "company": "Comvey",
-      "address": {
-        "street": "623 West Iroquois Avenue",
-        "city": "Helotes",
-        "state": "TX",
-        "zipcode": "78023"
-      },
-      "email": "gallegos@comvey.com",
-      "phone": "(210)463-2673",
-      "registered": 1502825307641,
-      "about": "Anim commodo enim proident dolore duis. Pariatur elit aliquip commodo fugiat aliquip do officia. "
-    },
-    {
-      "index": 4,
-      "id": "5ceb471845f39b87264bb936",
-      "guid": "09fd5a14-c3d5-4ce1-8842-87cbf087d5b2",
-      "name": {
-        "first": "Burnett",
-        "last": "Church"
-      },
-      "age": 28,
-      "eyeColor": "brown",
-      "company": "Accel",
-      "address": {
-        "street": "9690 Blue Spring Lane",
-        "city": "Battle Creek",
-        "state": "MI",
-        "zipcode": "49015"
-      },
-      "email": "church@accel.com",
-      "phone": "(269)509-3556",
-      "registered": 1547848019679,
-      "about": "Excepteur sint do ullamco laborum nulla ea magna officia labore. Laborum velit culpa mollit consequat."
-    },
-    {
-      "index": 5,
-      "id": "5ceb47184ef6036217566dc5",
-      "guid": "f2588720-9ee4-4040-a4f6-f3ae9ce55add",
-      "name": {
-        "first": "Lou",
-        "last": "Hunt"
-      },
-      "age": 22,
-      "eyeColor": "green",
-      "company": "Eventix",
-      "address": {
-        "street": "233 Edgewood Avenue",
-        "city": "Mchenry",
-        "state": "IL",
-        "zipcode": "60050"
-      },
-      "email": "hunt@eventix.com",
-      "phone": "(779)562-3715",
-      "registered": 1426225724555,
-      "about": "Irure ad est consequat magna. Duis aute cupidatat esse ea sunt cupidatat nulla et."
-    },
-    {
-      "index": 6,
-      "id": "5ceb47185556fdc2f4828084",
-      "guid": "f9ac0c0f-8961-4b61-a70e-7c4284b7e767",
-      "name": {
-        "first": "Hernandez",
-        "last": "Craig"
-      },
-      "age": 27,
-      "eyeColor": "blue",
-      "company": "Intergeek",
-      "address": {
-        "street": "435 S. Wrangler Street",
-        "city": "Chandler",
-        "state": "AZ",
-        "zipcode": "85224"
-      },
-      "email": "craig@intergeek.com",
-      "phone": "(480)499-3512",
-      "registered": 1242363286151,
-      "about": "Ut incididunt dolore qui incididunt id occaecat reprehenderit eiusmod velit eiusmod ipsum occaecat officia amet."
-    },
-    {
-      "index": 7,
-      "id": "5ceb471828f765b985d16428",
-      "guid": "bab00913-443e-4b2e-acbf-76720ece16ea",
-      "name": {
-        "first": "Boone",
-        "last": "Bennett"
-      },
-      "age": 39,
-      "eyeColor": "brown",
-      "company": "Silodyne",
-      "address": {
-        "street": "9676 Oxford Street",
-        "city": "Jackson Heights",
-        "state": "NY",
-        "zipcode": "11372"
-      },
-      "email": "bennett@silodyne.com",
-      "phone": "(347)505-2776",
-      "registered": 1230778560069,
-      "about": "In nostrud nostrud dolore occaecat ipsum irure quis officia ipsum sint irure anim consectetur magna."
-    },
-    {
-      "index": 8,
-      "id": "5ceb47185847d668e5cd0c7c",
-      "guid": "4980784f-2b23-4b76-ab41-a553ee9be89a",
-      "name": {
-        "first": "Watts",
-        "last": "Prince"
-      },
-      "age": 36,
-      "eyeColor": "green",
-      "company": "Viocular",
-      "address": {
-        "street": "714 Elm Lane",
-        "city": "Augusta",
-        "state": "GA",
-        "zipcode": "30906"
-      },
-      "email": "prince@viocular.com",
-      "phone": "(762)574-2471",
-      "registered": 1312087624835,
-      "about": "Proident nostrud ad nisi qui ut in irure. Excepteur enim anim culpa deserunt. In tempor non proident sunt fugiat."
-    }
-  ],
-  "todos": [
-    {
-      "userId": 1,
-      "id": 1,
-      "title": "delectus aut autem",
-      "completed": false
-    },
-    {
-      "userId": 1,
-      "id": 2,
-      "title": "quis ut nam facilis et officia qui",
-      "completed": false
-    },
-    {
-      "userId": 1,
-      "id": 3,
-      "title": "fugiat veniam minus",
-      "completed": false
-    },
-    {
-      "userId": 1,
-      "id": 4,
-      "title": "et porro tempora",
-      "completed": true
-    },
-    {
-      "userId": 1,
-      "id": 5,
-      "title": "laboriosam mollitia et enim quasi adipisci quia provident illum",
-      "completed": false
-    }
-  ],
-  "profile": {
-    "name": "typicode"
+[
+  {
+    "userId": 1,
+    "id": 1,
+    "title": "delectus aut autem",
+    "completed": false
+  },
+  {
+    "userId": 1,
+    "id": 2,
+    "title": "quis ut nam facilis et officia qui",
+    "completed": false
+  },
+  {
+    "userId": 2,
+    "id": 3,
+    "title": "fugiat veniam minus",
+    "completed": false
+  },
+  {
+    "userId": 3,
+    "id": 4,
+    "title": "et porro tempora",
+    "completed": true
+  },
+  {
+    "userId": 3,
+    "id": 5,
+    "title": "laboriosam mollitia et enim quasi adipisci quia provident illum",
+    "completed": false
+  },
+  {
+    "userId": 3,
+    "id": 6,
+    "title": "qui ullam ratione quibusdam voluptatem quia omnis",
+    "completed": false
+  },
+  {
+    "userId": 2,
+    "id": 7,
+    "title": "illo expedita consequatur quia in",
+    "completed": false
+  },
+  {
+    "userId": 4,
+    "id": 8,
+    "title": "quo adipisci enim quam ut ab",
+    "completed": true
+  },
+  {
+    "userId": 1,
+    "id": 9,
+    "title": "molestiae perspiciatis ipsa",
+    "completed": false
+  },
+  {
+    "userId": 1,
+    "id": 10,
+    "title": "illo est ratione doloremque quia maiores aut",
+    "completed": true
   }
-}
+]
