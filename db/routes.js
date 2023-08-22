@@ -1,12 +1,12 @@
 const express = require("express");
-const cors = require('cors');
+// const cors = require('cors');
 const router = express.Router();
 const controllers = require("./controllers");
 
 router.use(express.json());
-router.use(cors({
-  origin: '*'
-}));
+// router.use(cors({
+//   origin: '*'
+// }));
 
 
 router.get("/", controllers.getData);
