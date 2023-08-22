@@ -1,0 +1,24 @@
+### Get List
+GET http://localhost:3000/db
+
+### Get Item
+GET http://localhost:3000/db/gkmaem03u149
+
+### Create Item
+POST http://localhost:3000/db
+Content-Type: application/json
+
+{
+  "title": "Four"
+}
+
+### Update Item
+PUT http://localhost:3000/db/xv3isqqskolo
+Content-Type: application/json
+
+{
+  "content": "Fourth Item"
+}
+
+### Delete Item
+delete http://localhost:3000/db/xv3isqqskolo
