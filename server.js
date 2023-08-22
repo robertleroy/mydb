@@ -5,8 +5,10 @@ const path = require("path");
 
 const dbRouter = require("./db/routes");
 
-app.use(cors())
-app.use('/db', dbRouter)
+app.use(cors({
+  origin: '*'
+}));
+app.use('/db', dbRouter);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
