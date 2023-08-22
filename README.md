@@ -1,10 +1,17 @@
 # mydb
 
-## Simple Json Store
+## Simple json store
 
-Learning expressjs / server side nodejs
+Learning nodejs, expressjs, server side stuff & Raspberry Pi
 
-A json store db on a Raspberry pi to serve a simple backend tasks list.
+This is  json store db to be served locally on a Raspberry pi as a simple backend database. 
+
+Goal will be to expand the functioning of this R_pi to serve files, homelab, pi_hole on docker containers.
+
+- raspberrypi
+- roble takeout
+- 192.168.1.87
+
 
 ### db Routes
 
@@ -24,11 +31,8 @@ router.post("/", controllers.addItem);
 router.put('/:id', controllers.updateItem);
 router.delete('/:id', controllers.deleteItem);
 ```
-<br>
 
-- raspberrypi
-- takeout
-- 192.168.1.87
+<br>
 
 
 # [pm2](https://www.npmjs.com/package/pm2)
@@ -52,4 +56,3 @@ pm2 start app.js
 ```
 
 
-<!-- /home/roble/Desktop/test/index.html -->
