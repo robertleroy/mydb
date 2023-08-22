@@ -9,16 +9,17 @@ POST http://localhost:3000/db
 Content-Type: application/json
 
 {
-  "title": "Four"
+  "title": "Two",
+  "content": "Second item"
 }
 
 ### Update Item
-PUT http://localhost:3000/db/xv3isqqskolo
+PUT http://localhost:3000/db/30z09zfqqk77
 Content-Type: application/json
 
 {
-  "content": "Fourth Item"
+  "completed": true
 }
 
 ### Delete Item
-delete http://localhost:3000/db/xv3isqqskolo
+delete http://localhost:3000/db/ezh7utujx5gn
