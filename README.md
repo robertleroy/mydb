@@ -1,4 +1,4 @@
-# mydb
+# [mydb](http://192.168.1.87:3000)
 
 ## Simple json store
 
@@ -11,6 +11,8 @@ Goal will be to expand the functioning of this R_pi to serve files, homelab, pi_
 - raspberrypi
 - roble takeout
 - 192.168.1.87
+
+ssh raspberrypi@192.168.1.87
 
 
 ### db Routes
@@ -55,4 +57,7 @@ pm2 start app.js
 # Your app is now daemonized, monitored and kept alive forever.
 ```
 
+git clone https://github.com/robertleroy/mydb.git
+cd mydb
+npm start
 

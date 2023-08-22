@@ -77,7 +77,6 @@ const deleteItem = (req,res) => {
     } else {
       res.status(404).send("Not found: " + req.params.id);
     }
-    res.status(200).json(data);
   } catch (error) {
     console.log(error);
   }
